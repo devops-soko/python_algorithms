@@ -1,4 +1,4 @@
-2016년
+문제 : 2016년
 
 문제 설명
 2016년 1월 1일은 금요일입니다. 2016년 a월 b일은 무슨 요일일까요? 두 수 a ,b를 입력받아 2016년 a월 b일이 무슨 요일인지 리턴하는 함수, solution을 완성하세요. 요일의 이름은 일요일부터 토요일까지 각각 SUN,MON,TUE,WED,THU,FRI,SAT
@@ -9,5 +9,25 @@
 2016년은 윤년입니다.
 2016년 a월 b일은 실제로 있는 날입니다. (13월 26일이나 2월 45일같은 날짜는 주어지지 않습니다)
 입출력 예
+a	b	result
+5	24	TUE
+
+
+
+Title : Year of 2016
+
+Description
+January 1st, 2016 is Friday. 
+What day is A(Month)/B(Date) 2016? 
+Make the algorithm to get two numbers A(Month) and B(Date) and to return what day a/b 2016 is. 
+(the form of output :  SUN, MON, TUE, WED, THU, FRI, SAT)
+
+For example if you input a=5, b=24, 
+the function needs to return the string TUE since May 24 is Tuesday.
+
+Restriction Conditions
+2016 is a leap year.
+A/B 2016 is a real day. (No dates such as 26th of 13 or 45th of February will be given.)
+Input/Output Example
 a	b	result
 5	24	TUE
